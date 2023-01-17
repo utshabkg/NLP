@@ -4,13 +4,13 @@ nlu:
 - intent: greet
   examples: |
     - hey
-    - hello
+    - hello, my name is [utshab](name)
     - hi
     - hello there
     - good morning
     - good evening
     - moin
-    - hey there
+    - hey there, my name is [utshab](name)
     - let's go
     - hey dude
     - goodmorning

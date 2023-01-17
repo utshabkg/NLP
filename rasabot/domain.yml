@@ -9,9 +9,29 @@ intents:
   - mood_unhappy
   - bot_challenge
 
+entitites:
+  - destination
+  - items
+  - name
+
+slots:
+  destination:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+  items:
+    type: list
+    mappings:
+      - type: custom
+  name:
+    type: any
+    mappings:
+      - type: custom
+
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey {name}! How are you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
