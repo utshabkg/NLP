@@ -42,7 +42,7 @@ nlu:
 - intent: deny
   examples: |
     - no
-    - n
+    - n 
     - never
     - I don't think so
     - don't like that

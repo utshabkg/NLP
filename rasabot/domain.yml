@@ -19,15 +19,15 @@ slots:
     type: text
     influence_conversation: true
     mappings:
-      - type: custom
+      - type: from_text
   items:
     type: list
     mappings:
-      - type: custom
+      - type: from_text
   name:
     type: any
     mappings:
-      - type: custom
+      - type: from_text
 
 responses:
   utter_greet:
