@@ -19,15 +19,18 @@ slots:
     type: text
     influence_conversation: true
     mappings:
-      - type: from_text
+    - type: from_entity
+      entity: destination
   items:
     type: list
     mappings:
-      - type: from_text
+    - type: from_entity
+      entity: items
   name:
     type: any
     mappings:
-      - type: from_text
+    - type: from_entity
+      entity: name
 
 responses:
   utter_greet:
